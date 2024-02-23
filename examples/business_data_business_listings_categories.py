@@ -3,7 +3,6 @@ from client import RestClient
 client = RestClient("", "")
 # GET /v3/business_data/business_listings/categories
 response = client.get("/v3/business_data/business_listings/categories")
-print('{API_LOGIN}')
 # you can find the full list of the response codes here https://docs.dataforseo.com/v3/appendix/errors
 if response["status_code"] == 20000:
 
