@@ -1,0 +1,72 @@
+Task Desctiption:
+  """
+  We are seeking a skilled professional to assist us in extracting data from a comprehensive database via an API and transforming this data into a usable format for our team. The database contains over 100 million records of Google Maps data, each with approximately 20 data points. Our goal is to pull data based on specific criteria (e.g., category) and make it accessible through Google Sheets or, preferably, as a CSV download.
+
+Key Responsibilities:
+- Set up API calls to the DataForSEO API (Documentation: https://docs.dataforseo.com/v3/databases/business_listings/) to retrieve data based on specific parameters such as category.
+- Filter and transform the data to include only the necessary data points, such as name, website URL, and category.
+- Implement a solution that enables the data to be exported directly into Google Sheets or as a downloadable CSV file.
+- Ensure the solution is user-friendly and can be operated by our team without requiring technical expertise for each use.
+- Provide documentation and training materials for our team on how to use the implemented solution.
+
+Requirements:
+- [] Proven experience with API integration and data manipulation.
+- [] Experience with Google Sheets API and/or creating CSV files programmatically.
+
+Please include in your proposal:
+- Your approach to this project and any tools or technologies you plan to use.
+- Estimated time to completion.
+  """
+
+1. [ ] Get the category info by Category name, Category id
+2. [ ] Lookup for data point (POI)(?), by url, name(title?), category 
+
+
+
+
+Business Listings API - get business listing data about entities listed on Google Maps 
+  and category aggregations
+
+TrendsAPI
+  trend type <-> word
+  2>: popularity rates on a relative scale : <5
+
+LabsAPI
+
+
+DataForSEO Labs API => Live method
+  2000 API calls/m
+
+
+ Domain Analytics Technologies API - identify all possible technologies used for building websites:
+  technology name 
+  category
+  group
+  => Live? Standard method 
+
+
+ #---------------------------------------------------------------------------------------------------#
+
+
+ Methods:
+  Live
+  Standard:
+    GET
+    POST
+
+Tasks:
+  endpoints:
+    Tasks Ready
+    Task Get
+  pingback_url
+  postback_url
+
+ #---------------------------------------------------------------------------------------------------#
+
+ Terms
+
+ Search intent - the term used to describe the purpose of an online search. 
+  It`s the reason why a user types a particular query into a search engine.
+
+ SERP - search engine response page
+
